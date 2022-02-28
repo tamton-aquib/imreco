@@ -14,4 +14,4 @@ python3 main.py
 - [ ] Resizer: To change diamension of the provided image, and save it to a new file.
 - [ ] Converter: To change file formats from png to jpg, etc.
 - [ ] Typer: Add [typer](https://github.com/tiangolo/typer) package for cli support.
-- [ ] Config: Add user config options.
+- [ ] Config: Add user config options. (maybe argparse or typer)
