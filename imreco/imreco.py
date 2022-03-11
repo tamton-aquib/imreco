@@ -21,6 +21,7 @@ def resize():
     cv.imwrite(f"./assets/ouput.{ext}", resized)
 
     print(f"Resizing from ({old_w}, {old_h})")
+    print("Output saved to ./assets/")
 
 def convert():
     old_format = args.input.split(".")[-1]
