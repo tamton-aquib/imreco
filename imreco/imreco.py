@@ -2,6 +2,7 @@
 """Every diamension used here is of the form (width,height) rather than (height,width)!"""
 import argparse
 import cv2 as cv
+import os
 
 parser = argparse.ArgumentParser(prog="imreco", description="Resize or Convert images")
 parser.add_argument("function", help="Resize or Convert")
@@ -15,13 +16,13 @@ def resize():
 
     img = cv.imread(args.input)
     old_w, old_h, _ = img.shape
-    ext = args.input.split(".")[-1]
+    filename = os.path.basename(args.input)
 
     resized = cv.resize(img, (width, height), interpolation=cv.INTER_AREA)
-    cv.imwrite(f"./assets/ouput.{ext}", resized)
+    cv.imwrite(f"./resized_{filename}", resized)
 
-    print(f"Resizing from ({old_w}, {old_h})")
-    print("Output saved to ./assets/")
+    print(f"Resizing from ({old_w}, {old_h}) to ({width}, {height})")
+    print(f"Output saved as resized_{filename}!")
 
 def convert():
     old_format = args.input.split(".")[-1]

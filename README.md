@@ -1,18 +1,21 @@
 # Imreco
 
 Image-Resizer-Converter.
-A python cli program to perform basic stuff to images using opencv. (WIP)
-Planning to include resizer and converter functions.
+A python cli program to perform basic operations on images using opencv. (WIP)
+
+This project was made possible by: @[shana](https://github.com/Shanayasmin).
+This project was done regarding [tinkerhub co-coder](https://tinkerhub.org/).
+
+### Installation:
+```python
+pip install imreco
+```
 
 ### Usage:
-```python
-git clone https://github.com/tamton-aquib/imreco.git
-cd imreco
-python3 main.py --help
-
+```sh
 # Syntax:
-python3 main.py resize  -i <input_file> -o <output_file> -s 300x400
-python3 main.py convert -i <input_file> -o <output_file> 
+imreco resize  -i <input_file> -o <output_file> -s 300x400
+imreco convert -i <input_file> -o <output_file> 
 ```
 
 ### TODOS:
