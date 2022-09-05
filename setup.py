@@ -3,10 +3,11 @@ from setuptools import setup
 setup(
     name = 'imreco',
     packages = ['imreco'],
-    version = '0.1.1',
+    version = '0.2.0',
     license = 'MIT',
     description = 'A cli program to resize images and convert between different formats.',
     long_description = "Read docs at https://github.com/tamton-aquib/imreco",
+    # description_file = "README.md",
     author = 'aquib',
     author_email = 'aquibjavedt007@gmail.com',
     url = 'https://github.com/tamton-aquib/imreco',
