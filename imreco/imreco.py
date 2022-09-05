@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # NOTE: Every dimension used here is of the form (width,height) rather than (height,width)!
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 import argparse
 from converter import Converter
