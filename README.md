@@ -19,7 +19,8 @@ imreco convert -i <input_file> -o <output_file>
 ```
 
 ### TODOS:
-- [x] Resizer: To change diamension of the provided image, and save it to a new file.
+- [x] Resizer: To change dimension of the provided image, and save it to a new file.
 - [x] Converter: To change file formats from png to jpg, etc.
 - [x] Config: Add user config options. (maybe argparse or typer)
 - [ ] Checks multiple files or a directory.
+- [ ] Chain functions and/or operations

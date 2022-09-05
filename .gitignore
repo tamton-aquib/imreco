@@ -1,3 +1,4 @@
 /dist
 /imreco.egg-info
 /assets
+/imreco/__pycache__
