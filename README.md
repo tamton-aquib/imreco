@@ -14,8 +14,9 @@ pip install imreco
 ### Usage:
 ```sh
 # Syntax:
-imreco resize  -i <input_file> -o <output_file> -s 300x400
-imreco convert -i <input_file> -o <output_file> 
+imreco resize    -i <input_file> -o <output_file> --quality 80
+imreco compress  -i <input_file> -o <output_file> --size 300x400
+imreco convert   -i <input_file> -o <output_file>
 ```
 
 ### TODOS:
@@ -25,3 +26,4 @@ imreco convert -i <input_file> -o <output_file>
 - [x] Config: Add user config options. (maybe argparse or typer)
 - [ ] Checks multiple files or a directory.
 - [ ] Chain functions and/or operations
+- [ ] Host as a flask api server?
