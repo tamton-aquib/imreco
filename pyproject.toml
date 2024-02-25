@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "imreco"
-version = "1.0.0"
+version = "1.0.1"
 description = "A cli program to resize images and convert between different formats."
 authors = ["Tamton Aquib <aquibjavedt007@gmail.com>"]
 license = "MIT"
