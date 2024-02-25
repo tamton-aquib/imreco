@@ -1,7 +1,8 @@
-# Release workkflow for imreco
+# Release workflow for imreco
 name: Release Imreco
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - v[0-9]+.*
